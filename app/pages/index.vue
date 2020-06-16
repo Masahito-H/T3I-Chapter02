@@ -22,7 +22,7 @@ export default {
     async asyncData({ app, store }){
     //warning: if this site will be deployed, I must change the above address.
     const path = require("path");
-    const pdFile = await app.$axios.$get(path.resolve(__dirname, "/chapter2-0.pd"));
+    const pdFile = await app.$axios.$get(path.resolve("./chapter2-0.pd"));
     console.log(pdFile);
     store.dispatch("isLoading", false);
 
