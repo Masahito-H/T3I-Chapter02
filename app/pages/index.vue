@@ -21,10 +21,10 @@ export default {
     },
     async asyncData({ app, store }){
     //warning: if this site will be deployed, I must change the above address.
-    const pdFile = await app.$axios.$get("https://a28cdfc3214a41cab37e3c7db9ef244b.vfs.cloud9.ap-northeast-1.amazonaws.com/chapter2-0.pd");
+    const pdFile = await app.$axios.$get("https://5ee8b03e15fb50000721fe4c--festive-easley-218d4b.netlify.app/chapter2-0.pd");
     console.log(pdFile);
     store.dispatch("isLoading", false);
-    
+
     return { pdFile };
     },
     computed: {
@@ -64,9 +64,9 @@ export default {
     font-weight: 500;
     font-size: 70px;
     color: #fffafa;
-    
+
     text-align: left;
-    
+
     padding-left: min(80px, calc(10vw - 40px));
 }
 
