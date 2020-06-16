@@ -20,7 +20,7 @@ export default {
       return {
         title: "Chapter02 Vue.js"
       }
-    }
+    },
     components: {
         TheTopCanvas
     },
