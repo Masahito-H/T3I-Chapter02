@@ -16,6 +16,11 @@ import { mapGetters } from "vuex";
 
 export default {
     name: "index",
+    head(){
+      return {
+        title: "Chapter02 Vue.js"
+      }
+    }
     components: {
         TheTopCanvas
     },
