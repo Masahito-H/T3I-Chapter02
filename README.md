@@ -1,4 +1,4 @@
-# Chapter2-Vue
+# T2IChapter02
 
 > My portfolio site with nuxt.js
 
