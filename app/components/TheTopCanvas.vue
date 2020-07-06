@@ -118,6 +118,7 @@ export default{
         
     },
     mounted: function(){
+        const p5 = require("p5");
         this.topCanvas = new p5(topCanvas(this.$store), this.$el);
     }
 };

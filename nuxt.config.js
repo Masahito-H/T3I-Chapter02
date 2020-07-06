@@ -18,13 +18,14 @@ export default {
     ],
     script: [
       { src: 'webpd-latest.min.js' },
-      { src: 'p5.min.js' }
+      { src: '../webpd-latest.min.js' },
+      { src: 'https://kit.fontawesome.com/8d439664aa.js', crossorigin: 'anonymous' }
     ]
   },
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: "~/components/TheLoading.vue",
   /*
   ** Global CSS
   */
@@ -62,5 +63,9 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  
+  server: {
+    port: 8080
   }
 }

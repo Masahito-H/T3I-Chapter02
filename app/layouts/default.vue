@@ -6,14 +6,17 @@
 </template>
 
 <script>
+  import Vue from "vue";
+  import sanitizeHTML from "sanitize-html";
+  
+  Vue.prototype.$sanitize = sanitizeHTML;
+
   export default {
     name: "default"
   };
 </script>
 
 <style>
-/* color palette: https://coolors.co/9fe6fd-353535-e0f4a8-d8f17c-00ff7f */
-
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -78,5 +81,9 @@ html {
   justify-content: center;
   text-align: center;
   overflow: hidden;
+}
+
+.text-centre{
+    text-align: center;
 }
 </style>
