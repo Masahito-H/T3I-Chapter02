@@ -11,15 +11,17 @@
                 <el-menu-item @click="() => {topView(false); topCanvas(false); closeDetail();}" index="3">WORKS</el-menu-item>
             </nuxt-link>
             <a href="https://t3i-chapter01-prototype.netlify.app">
-            <el-menu-item index="4">
-                Chapter 01<br />
-                jQuery
-            </el-menu-item>
+                <el-menu-item index="4">
+                    Chapter 01<br />
+                    jQuery
+                </el-menu-item>
             </a>
-            <el-menu-item index="5">
-                Chapter 02<br />
-                React
-            </el-menu-item>
+            <a href="https://t3i-chapter03-prototype.netlify.app">
+                <el-menu-item index="5">
+                    Chapter 03<br />
+                    React
+                  </el-menu-item>
+            </a>
         </el-menu>
         <div id="element-button">
             <el-button @click="menuSwitch" type="primary" icon="el-icon-menu">MENU</el-button>
@@ -74,11 +76,11 @@ a{
 .el-menu{
     height: 100vh;
     width: 0;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     border: none;
     overflow: hidden;
 }
@@ -89,14 +91,14 @@ a{
 
 .el-menu-item{
     height: auto;
-    
+
     font-size: 20px;
     line-height: 1.2em;
     padding: 28px 0;
 }
 
 #element-button{
-    
+
 }
 
 #element-button .el-button{
