@@ -129,7 +129,7 @@ export default {
     top: 0;
     bottom: 0;
     width: 100vw;
-    /*height: 100vh;*/
+    height: 0vh;
 }
 
 #main-components #the-menu{
