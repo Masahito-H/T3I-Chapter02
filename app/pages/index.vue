@@ -22,7 +22,7 @@ import TheMenu from "~/components/TheMenu.vue";
 import { mapGetters, mapActions } from "vuex";
 
 export default {
-    
+
     name: "index",
     head(){
       return {
@@ -106,7 +106,7 @@ export default {
     text-align: left;
 
     padding-left: min(80px, calc(10vw - 40px));
-    
+
     transition: left .5s;
 }
 
@@ -129,7 +129,7 @@ export default {
     top: 0;
     bottom: 0;
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 #main-components #the-menu{
@@ -137,7 +137,7 @@ export default {
     top: 0;
     left: 0;
     height: 100vh;
-    
+
     z-index: 3;
 }
 
@@ -147,10 +147,10 @@ export default {
     height: 100vh;
     top: 0;
     right: 0;
-    
+
     background-color: rgba(53, 53, 53, .8);
     color: #FFFAFA;
-    
+
     z-index: 1;
 }
 </style>
