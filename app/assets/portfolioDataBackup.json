@@ -5,13 +5,13 @@
     "genre": "Web",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/TheThreeInteractions01.png",
+      "imgsrc": "./src/TheThreeInteractions03.webp",
       "movsrc": "",
-      "detailsrcs": ["./src/TheThreeInteractions01.png", "./src/TheThreeInteractions02.png"]
+      "detailsrcs": ["./src/TheThreeInteractions01.webp", "./src/TheThreeInteractions02.webp", "./src/TheThreeInteractions03.webp"]
     },
     "language": "使用言語: Javascript (jQuery / Vue.js / Nuxt.js / React / p5.js / PureData / etc.)",
     "githubLink": "",
-    "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/' target='_blank'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/' target='_blank'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: （現在工事中）</p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作<br />Vue.jsのポートフォリオサイトではカーソルの動きに合わせて流れる音と背景が同時に変化するインタラクティブな機能を実装</p><p>（現在制作進行中）</p>"
+    "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/' target='_blank'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/' target='_blank'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: <a class='external-link' href='https://t3i-chapter03-prototype.netlify.app/' target='_blank'>https://t3i-chapter03-prototype.netlify.app/</a></p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作<br />Vue.jsのポートフォリオサイトではカーソルの動きに合わせて流れる音と背景が同時に変化するインタラクティブな機能を実装</p>"
   },
   {
     "id": "Etudes",
@@ -19,9 +19,9 @@
     "genre": "Web",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/Etudes.png",
+      "imgsrc": "./src/Etudes.webp",
       "movsrc": "",
-      "detailsrcs": ["./src/Etudes.png"]
+      "detailsrcs": ["./src/Etudes.webp"]
     },
     "language": "使用言語: Javascript (Vue.js / p5.js)",
     "githubLink": "",
@@ -33,9 +33,9 @@
     "genre": "Application",
     "thumbnail": {
       "isMovie": true,
-      "imgsrc": "./src/OSCTidal.png",
+      "imgsrc": "./src/OSCTidal.webp",
       "movsrc": "https://www.youtube.com/embed/IBHPNMzhsOM",
-      "detailsrcs": ["./src/OSCTidal.png"]
+      "detailsrcs": ["./src/OSCTidal.webp"]
     },
     "language": "使用言語: Processing / TidalCycles / SuperCollider",
     "githubLink": "https://github.com/Masahito-H/OSCTidal",
@@ -47,9 +47,9 @@
     "genre": "Application",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/GUI-VisualApplication03.png",
+      "imgsrc": "./src/GUI-VisualApplication03.webp",
       "movsrc": "",
-      "detailsrcs": ["./src/GUI-VisualApplication01.png", "./src/GUI-VisualApplication02.png", "./src/GUI-VisualApplication03.png", "./src/GUI-VisualApplication04.png"]
+      "detailsrcs": ["./src/GUI-VisualApplication01.webp", "./src/GUI-VisualApplication02.webp", "./src/GUI-VisualApplication03.webp", "./src/GUI-VisualApplication04.webp"]
     },
     "language": "使用言語: Processing",
     "githubLink": "https://github.com/Masahito-H/GUI-VisualApplication",
@@ -61,9 +61,9 @@
     "genre": "Application",
     "thumbnail": {
       "isMovie": true,
-      "imgsrc": "./src/DrawingAttractor01.png",
+      "imgsrc": "./src/DrawingAttractor01.webp",
       "movsrc": "https://www.youtube.com/embed/NJSdmx4RHFQ",
-      "detailsrcs": ["./src/DrawingAttractor01.png"]
+      "detailsrcs": ["./src/DrawingAttractor01.webp"]
     },
     "language": "使用言語: C++ (openFrameworks)",
     "githubLink": "https://github.com/Masahito-H/DrawingAttractor",
@@ -75,9 +75,9 @@
     "genre": "Graphic",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/EXTENSION.png",
+      "imgsrc": "./src/EXTENSION.webp",
       "movsrc": "",
-      "detailsrcs": ["./src/EXTENSION01.png", "./src/EXTENSION02.png", "./src/EXTENSION03.png", "./src/EXTENSION04.png"]
+      "detailsrcs": ["./src/EXTENSION01.webp", "./src/EXTENSION02.webp", "./src/EXTENSION03.webp", "./src/EXTENSION04.webp"]
     },
     "language": "使用ツール: MAXON Cinema 4D / Adobe Illustrator / Adobe After Effects",
     "githubLink": "",
@@ -89,9 +89,9 @@
     "genre": "Movie",
     "thumbnail": {
       "isMovie": true,
-      "imgsrc": "./src/FootageThumb.png",
+      "imgsrc": "./src/FootageThumb.webp",
       "movsrc": "https://www.youtube.com/embed/iHrPM6N7rfQ",
-      "detailsrcs": ["./src/FootageThumb.png"]
+      "detailsrcs": ["./src/FootageThumb.webp"]
     },
     "language": "使用ツール: Adobe After Effects",
     "githubLink": "",
@@ -103,9 +103,9 @@
     "genre": "Movie",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/AbandonedWorld01.png",
+      "imgsrc": "./src/AbandonedWorld01.webp",
       "movsrc": "",
-      "detailsrcs": ["./src/AbandonedWorld01.png", "./src/AbandonedWorld02.png"]
+      "detailsrcs": ["./src/AbandonedWorld01.webp", "./src/AbandonedWorld02.webp"]
     },
     "language": "使用ツール: Adobe After Effects",
     "githubLink": "",
@@ -117,9 +117,9 @@
     "genre": "Game",
     "thumbnail": {
       "isMovie": true,
-      "imgsrc": "./src/PrototypeTPS.png",
+      "imgsrc": "./src/PrototypeTPS.webp",
       "movsrc": "https://www.youtube.com/embed/K2o63N-A6QA",
-      "detailsrcs": ["./src/PrototypeTPS.png"]
+      "detailsrcs": ["./src/PrototypeTPS.webp"]
     },
     "language": "使用ゲームエンジン: Unreal Engine 4",
     "githubLink": "",
@@ -131,9 +131,9 @@
     "genre": "Music",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/DAW.png",
+      "imgsrc": "./src/DAW.webp",
       "movsrc": "",
-      "detailsrcs": ["./src/DAW.png"]
+      "detailsrcs": ["./src/DAW.webp"]
     },
     "language": "使用DAWなど: FL Studio / Studio One / Pure Data",
     "githubLink": "",
