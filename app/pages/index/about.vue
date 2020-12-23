@@ -20,7 +20,7 @@
             </p>
 
             <h3 class="member-skill">プログラミングスキル</h3>
-            <p>C++(openFrameworks) / Java / Processing / javascript(jQuery, Vue.js, Nuxt.js, p5.js, React, three.js, Howler.js) / Python / etc..</p>
+            <p>C++(openFrameworks) / Java / Processing /<br /> javascript(jQuery, Vue.js, Nuxt.js, p5.js, React, three.js, Howler.js) / Python / etc..</p>
         </div>
     </section>
 </template>
