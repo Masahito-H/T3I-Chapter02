@@ -12,15 +12,15 @@
                 他、大学の音楽サークルにてVJ、CDジャケットのデザインの経験を持つ。<br />
                 現在、Webエンジニア（フロントエンドエンジニア）に向けて勉強中。
             </p>
-            
+
             <h3 class="member-skill">取得資格</h3>
             <p>
                 基本情報技術者試験<br />
                 TOEIC IPテスト スコア605
             </p>
-            
+
             <h3 class="member-skill">プログラミングスキル</h3>
-            <p>C++(openFrameworks) / Java / Processing / javascript(jQuery, Vue.js, Nuxt.js, p5.js) / Python / etc..</p>
+            <p>C++(openFrameworks) / Java / Processing / javascript(jQuery, Vue.js, Nuxt.js, p5.js, React, three.js, Howler.js) / Python / etc..</p>
         </div>
     </section>
 </template>
@@ -33,11 +33,11 @@ export default{
 
 <style scoped>
 #my-intro-head{
-    
+
 }
 
 #my-intro-head .member-name{
-    
+
 }
 
 #my-intro-desc{
@@ -46,7 +46,7 @@ export default{
 }
 
 #my-intro-desc .member-skill{
-    
+
 }
 
 #my-intro-desc p{
