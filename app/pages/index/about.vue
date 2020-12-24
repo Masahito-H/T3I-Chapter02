@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="my-intro-section">
         <h1 class="text-centre">ABOUT</h1>
         <div id="my-intro-head">
             <img src="src/la.png" width="225px">
@@ -32,6 +32,13 @@ export default{
 </script>
 
 <style scoped>
+#my-intro-section{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+}
+
 #my-intro-head{
 
 }
