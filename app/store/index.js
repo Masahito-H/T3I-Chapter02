@@ -6,7 +6,8 @@ export const state = () => ({
     },
     isSelectTop: true,
     isShowCanvas: true,
-    isShowDetail: false
+    isShowDetail: false,
+    isCollapseContent: false
 });
 
 export const getters = {
@@ -14,7 +15,8 @@ export const getters = {
     ms: (state) => state.ms,
     isSelectTop: (state) => state.isSelectTop,
     isShowCanvas: (state) => state.isShowCanvas,
-    isShowDetail: (state) => state.isShowDetail
+    isShowDetail: (state) => state.isShowDetail,
+    isCollapseContent: (state) => state.isCollapseContent
 };
 
 export const mutations = {
@@ -32,6 +34,9 @@ export const mutations = {
     },
     setIsDetail(state, payload){
         state.isShowDetail = payload;
+    },
+    setIsNotContent(state, payload){
+        state.isCollapseContent = payload;
     }
 };
 
@@ -50,5 +55,8 @@ export const actions = {
     },
     isDetail({ commit }, payload){
         commit("setIsDetail", payload);
+    },
+    isNotContent({ commit }, payload){
+        commit("setIsNotContent", payload);
     }
 };
