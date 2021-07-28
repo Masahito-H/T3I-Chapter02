@@ -34,6 +34,7 @@ import { mapGetters, mapActions } from "vuex";
 
 export default{
     name: "works",
+    middleware: 'disable-direct-access',
     components: {
         PortfolioThumbnail
     },

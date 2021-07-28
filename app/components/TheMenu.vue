@@ -5,10 +5,10 @@
                 <el-menu-item @click="() => {topView(true); topCanvas(true);}" index="1">TOP</el-menu-item>
             </nuxt-link>
             <nuxt-link to="/about">
-                <el-menu-item @click="() => {topView(false); topCanvas(false);}" index="2">ABOUT</el-menu-item>
+                <el-menu-item @click="() => {topView(false); topCanvas(true);}" index="2">ABOUT</el-menu-item>
             </nuxt-link>
             <nuxt-link to="/works">
-                <el-menu-item @click="() => {topView(false); topCanvas(false); closeDetail();}" index="3">WORKS</el-menu-item>
+                <el-menu-item @click="() => {topView(false); topCanvas(true); closeDetail();}" index="3">WORKS</el-menu-item>
             </nuxt-link>
             <a href="https://t3i-chapter01-prototype.netlify.app">
                 <el-menu-item index="4">
@@ -40,11 +40,12 @@ export default{
         };
     },
     computed: {
-        ...mapGetters(["isSelectTop", "isShowDetail"])
+        ...mapGetters(["isSelectTop", "isShowDetail", "isCollapseContent"])
     },
     methods: {
         menuSwitch: function(){
             this.menuCollapse = !this.menuCollapse;
+            this.isNotContent(this.menuCollapse);
         },
         topView: function(b){
             this.isTop(b);
@@ -55,7 +56,7 @@ export default{
         closeDetail: function(){
             this.isDetail(false);
         },
-        ...mapActions(["isTop", "isCanvas", "isDetail"])
+        ...mapActions(["isTop", "isCanvas", "isDetail", "isNotContent"])
     },
     mounted: function(){
         this.menuCollapse = this.isSelectTop;

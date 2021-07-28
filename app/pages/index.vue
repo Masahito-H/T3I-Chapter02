@@ -9,7 +9,7 @@
         </h1>
         <div id="main-components">
             <TheMenu id="the-menu" />
-            <div id="content-area" v-show="!isSelectTop">
+            <div id="content-area" v-show="!isSelectTop" :class="{'menu-collapsed' : isCollapseContent}">
                 <nuxt-child />
             </div>
         </div>
@@ -22,7 +22,6 @@ import TheMenu from "~/components/TheMenu.vue";
 import { mapGetters, mapActions } from "vuex";
 
 export default {
-
     name: "index",
     head(){
       return {
@@ -42,14 +41,15 @@ export default {
     },
     data: function(){
         return {
-            moveTitle: false
+            moveTitle: false,
+            menuCollapsed: false
         };
     },
     computed: {
-        ...mapGetters(["isLoading", "ms", "isShowCanvas", "isSelectTop"])
+        ...mapGetters(["isLoading", "ms", "isShowCanvas", "isSelectTop", "isCollapseContent"])
     },
     methods: {
-        ...mapActions(["isTop", "isCanvas", "isDetail"])
+        ...mapActions(["isTop", "isCanvas", "isDetail", "isNotContent"])
     },
     watch: {
         ms: function(oldVal, newVal){
@@ -58,13 +58,15 @@ export default {
         }
     },
     beforeMount: function(){
+        this.isCanvas(true);
+        this.isNotContent(false);
         if(this.$route.path === "/"){
             this.isTop(true);
-            this.isCanvas(true);
+            //this.isCanvas(true);
         }
         else{
             this.isTop(false);
-            this.isCanvas(false);
+            //this.isCanvas(false);
         }
     },
     mounted: function(){
@@ -152,5 +154,11 @@ export default {
     color: #FFFAFA;
 
     z-index: 1;
+    
+    transition: transform .3s;
+}
+
+#main-components #content-area.menu-collapsed{
+    transform: translateX(75vw);
 }
 </style>
