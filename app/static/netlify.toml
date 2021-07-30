@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/works/*"
-  to = "/works"
+  to = "https://t3i-chapter02-prototype.netlify.app/works"
   status = 301
-  force = true
+  force = false
