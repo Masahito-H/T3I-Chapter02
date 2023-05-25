@@ -12,7 +12,14 @@
   Vue.prototype.$sanitize = sanitizeHTML;
 
   export default {
-    name: "default"
+    name: "default",
+    head () {
+      return {
+        meta: [
+          { hid: 'robots', name: 'robots', content: 'noindex' }
+        ]
+      }
+    }
   };
 </script>
 
